@@ -1077,13 +1077,23 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about h2 {
+  font-weight: 700;
+  font-size: 33px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #008374;
+  display: inline-block;
+  
+}
 .about h3 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
+  border-bottom: 2px solid #008374;
+  display: inline-block;
 }
 .about p{
-  margin-left: 3rem;
+  margin-left: 0rem;
 /*   margin-top: 2rem;
  */}
 
@@ -2995,4 +3005,11 @@ section,
 .z{
   position: relative;
   z-index: 0 !important;
+}
+
+.thin-line {
+  border: none; /* Eliminar el borde predeterminado */
+  border-top: 1px solid #ccc; /* Agregar una línea superior */
+  margin: 20px 0; /* Espaciado superior e inferior */
+  width: 100%; /* Ancho completo */
 }
