@@ -31,11 +31,11 @@
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #172a28;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #008374;
+  --accent-color: #D9DFC6;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff;
+  --contrast-color: #222222;
   /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -43,7 +43,7 @@
 :root {
   --nav-color: #352d52;
   /* The default color of the main navmenu links */
-  --nav-hover-color: #008374;
+  --nav-hover-color: #574964;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff;
   /* Used as the background color for mobile navigation menu */
@@ -51,7 +51,7 @@
   /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #01433c;
   /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #008374;
+  --nav-dropdown-hover-color: #574964;
   /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -63,7 +63,7 @@
 }
 
 .dark-background {
-  --background-color: #060606;
+  --background-color: #FFF2C2;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
@@ -75,7 +75,7 @@
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
-  --surface-color: #00b6a1;
+  --surface-color: #FFF2C2;
   --contrast-color: #ffffff;
 }
 
@@ -288,7 +288,7 @@ h6 {
 }
 
 .header .topbar {
-  background-color: #3a2f61;
+  background-color: #D9DFC6;
   height: 40px;
   padding: 0;
   font-size: 14px;
@@ -398,7 +398,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: #3a2f61;
+    color: #574964;
     font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -441,7 +441,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: red;
+    color: #9F8383;
   }
 
   .navmenu .dropdown ul {
@@ -478,7 +478,7 @@ h6 {
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
-    color: var(--nav-dropdown-hover-color);
+    color: var(RED);
   }
 
   .navmenu .dropdown:hover>ul {
@@ -631,8 +631,8 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: black;
+  background-color: #FFF2C2;
   font-size: 14px;
   position: relative;
 }
@@ -652,7 +652,7 @@ h6 {
 }
 
 .footer .footer-about .logo span {
-  color: var(--heading-color);
+  color: black;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -679,7 +679,7 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--default-color);
+  color: black;
   border-color: var(--default-color);
 }
 
@@ -688,10 +688,12 @@ h6 {
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
+  color: black;
 }
 
 .footer .footer-links {
   margin-bottom: 30px;
+  color: black;
 }
 
 .footer .footer-links ul {
@@ -710,6 +712,7 @@ h6 {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  color: black;
 }
 
 .footer .footer-links ul li:first-child {
@@ -717,7 +720,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, black), transparent 30%;
   display: inline-block;
   line-height: 1;
 }
@@ -1135,7 +1138,9 @@ section,
   left: calc(50% - 47px);
   top: calc(50% - 47px);
 }
-
+.about{
+  margin-top: 10rem;
+}
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
