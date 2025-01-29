@@ -31,9 +31,9 @@
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #574964;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #9F8383;
+  --accent-color: #FA812F;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #FFDAB3;
+  --surface-color: #FAB12F;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: blacks;
   /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -288,7 +288,7 @@ h6 {
 }
 
 .header .topbar {
-  background-color: #574964;
+  background-color: #FA4032;
   height: 40px;
   padding: 0;
   font-size: 14px;
@@ -398,7 +398,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: #574964;
+    color: black;
     font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -632,7 +632,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: black;
-  background-color: #574964;
+  background-color: #FA4032;
   font-size: 14px;
   position: relative;
 }
