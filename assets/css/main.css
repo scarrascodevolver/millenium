@@ -23,25 +23,25 @@
   --nav-font: "Poppins", sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+/* Global Colors - The following color variables a re used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
   --background-color: #ffffff;
   /* Background color for the entire website, including individual sections */
-  --default-color: #222222;
+  --default-color: #574964;
   /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #172a28;
+  --heading-color: #574964;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #D9DFC6;
+  --accent-color: #9F8383;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff;
+  --surface-color: #FFDAB3;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #222222;
+  --contrast-color: blacks;
   /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #352d52;
+  --nav-color: #574964;
   /* The default color of the main navmenu links */
   --nav-hover-color: #574964;
   /* Applied to main navmenu links when they are hovered over or active */
@@ -280,7 +280,7 @@ h6 {
 
 .header {
   --background-color: #ffffff;
-  --heading-color: #ffffff;
+  --heading-color: #FFDAB3;
   color: var(--default-color);
   transition: all 0.5s;
   z-index: 997;
@@ -288,7 +288,7 @@ h6 {
 }
 
 .header .topbar {
-  background-color: #D9DFC6;
+  background-color: #574964;
   height: 40px;
   padding: 0;
   font-size: 14px;
@@ -297,13 +297,13 @@ h6 {
 
 .header .topbar .contact-info i {
   font-style: normal;
-  color: var(--contrast-color);
+  color: white;
 }
 
 .header .topbar .contact-info i a,
 .header .topbar .contact-info i span {
   padding-left: 5px;
-  color: var(--contrast-color);
+  color: white;
 }
 
 @media (max-width: 575px) {
@@ -632,7 +632,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: black;
-  background-color: #FFF2C2;
+  background-color: #574964;
   font-size: 14px;
   position: relative;
 }
@@ -2022,7 +2022,7 @@ section,
 
 .contact .info-item:hover i {
   background: var(--contrast-color);
-  color: var(--accent-color);
+  color: black;
 }
 
 .contact .php-email-form {
