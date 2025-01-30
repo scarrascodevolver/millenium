@@ -25,15 +25,15 @@
 
 /* Global Colors - The following color variables a re used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
-  --background-color: #ffffff;
+  --background-color: #F9F6E6; /* fondobody */
   /* Background color for the entire website, including individual sections */
   --default-color: #574964;
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #574964;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #DFD3C3;
+  --accent-color: #A5B68D;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #D0B8A8;
+  --surface-color: #ECDFCC;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: blacks;
   /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -43,7 +43,7 @@
 :root {
   --nav-color: #574964;
   /* The default color of the main navmenu links */
-  --nav-hover-color: #574964;
+  --nav-hover-color: #DA8359;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff;
   /* Used as the background color for mobile navigation menu */
@@ -279,7 +279,7 @@ h6 {
 
 
 .header {
-  --background-color: #ffffff;
+  --background-color: #ecdfcc;
   --heading-color: #FFDAB3;
   color: var(--default-color);
   transition: all 0.5s;
@@ -288,7 +288,7 @@ h6 {
 }
 
 .header .topbar {
-  background-color: #C5705D;
+  background-color: #A5B68D;
   height: 40px;
   padding: 0;
   font-size: 14px;
@@ -441,7 +441,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: #9F8383;
+    color: #DA8359;
   }
 
   .navmenu .dropdown ul {
@@ -478,7 +478,7 @@ h6 {
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
-    color: var(RED);
+    color: #DA8359;
   }
 
   .navmenu .dropdown:hover>ul {
@@ -632,7 +632,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: black;
-  background-color: #C5705D;
+  background-color: #A5B68D;
   font-size: 14px;
   position: relative;
 }
@@ -793,7 +793,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color:#DA8359;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -802,7 +802,7 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--contrast-color);
+  color: white;
   line-height: 0;
 }
 
@@ -924,7 +924,7 @@ section,
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--accent-color);
+  background: #DA8359; /* subrayadocontacto */
   left: 0;
   right: 0;
   bottom: 0;
@@ -1084,7 +1084,7 @@ section,
   font-weight: 700;
   font-size: 33px;
   margin-bottom: 20px;
-  border-bottom: 2px solid #574964;
+  border-bottom: 2px solid #DA8359;
   display: inline-block;
   text-align: justify;
 
@@ -1093,7 +1093,7 @@ section,
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
-  border-bottom: 2px solid #574964;
+  border-bottom: 2px solid #DA8359;
   display: inline-block;
 }
 .about p{
@@ -1248,7 +1248,7 @@ section,
   width: 94px;
   height: 94px;
   margin-bottom: 20px;
-  background: radial-gradient(var(--accent-color) 50%, color-mix(in srgb, var(--accent-color), transparent 60%) 52%);
+  background: radial-gradient(#DA8359 50%, color-mix(in srgb,#DA8359, transparent 60%) 52%); /* colorbotonvideo */
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -1267,7 +1267,7 @@ section,
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid color-mix(in srgb, var(--accent-color), transparent 20%);
+  border: 5px solid color-mix(in srgb, #DA8359, transparent 20%);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -1387,7 +1387,7 @@ section,
   font-size: 22px;
   position: relative;
   display: inline-block;
-  border-bottom: 4px solid color-mix(in srgb, var(--heading-color), transparent 90%);
+  border-bottom: 4px solid color-mix(in srgb, red, transparent 90%);
   transition: 0.3s;
 }
 
@@ -1408,16 +1408,16 @@ section,
 }
 
 .services .service-item:hover .icon:before {
-  background: color-mix(in srgb, var(--accent-color), transparent 50%);
+  background: color-mix(in srgb, #DA8359, transparent 50%);
 }
 
 .services .service-item:hover h3 {
-  border-color: color-mix(in srgb, var(--accent-color), transparent 10%);
+  border-color: color-mix(in srgb, #DA8359, transparent 10%);
   color: var(--heading-color);
 }
 
 .services .service-item:hover .readmore {
-  color: var(--accent-color);
+  color: #DA8359;
 }
 
 /*--------------------------------------------------------------
@@ -1862,12 +1862,12 @@ section,
 }
 
 .faq .faq-container .faq-item h3 .num {
-  color: var(--accent-color);
+  color: #DA8359;
   padding-right: 5px;
 }
 
 .faq .faq-container .faq-item h3:hover {
-  color: var(--accent-color);
+  color:#DA8359; /* titulosfac */
 }
 
 .faq .faq-container .faq-item .faq-content {
