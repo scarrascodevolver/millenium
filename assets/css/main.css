@@ -345,7 +345,7 @@ line-height: 1;
 }
 
 .header .logo img {
-max-height: 110px;
+max-height: 100px;
 margin-right: 8px;
 margin: auto; /* Asegura que el margen esté equilibrado */
 display: block;
