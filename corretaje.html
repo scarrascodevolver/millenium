@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Millenium Administración de Edificios y Condominios</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- Metaetiquetas mínimas para Open Graph -->
+  <meta property="og:image" content="https://scarrascodevolver.github.io/millenium/assets/img/icono.png">
+
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+
+  <!-- Favicons -->
+  <link href="assets/img/icono.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+  .card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+</style>
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a
+              href="mailto:contact@example.com">ejemplo@millenium.cl</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+569 56262949</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <img src="assets/img/logofinal.png" alt="">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Inicio<br></a></li>
+            <li><a href="index.html#about">Nosotros</a></li>
+            <li><a href="index.html#services">Servicios</a></li>
+            <li><a href="corretaje.html">Corretaje</a></li>
+            <li><a href="beneficios.html"><em>Beneficios</em></a></li>
+            <li><a href="index.html#faq">Preguntas Frecuentes</a></li>
+            <li><a href="https://tcel.cl/web/login"><img width="80px" src="assets/img/logo-kastor.svg" alt=""></a></li>
+
+            <li><a href="index.html#contact">Contacto</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main corretaje">
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Inmobiliaria</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="container mt-5">
+        <h1 class="text-center mb-4">Propiedades</h1>
+        
+        <!-- Filtros -->
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <select id="filtroRegion" class="form-select">
+              <option value="">Todas las regiones</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <select id="filtroComuna" class="form-select" disabled>
+              <option value="">Todas las comunas</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <select id="filtroTipo" class="form-select">
+              <option value="">Todos los tipos</option>
+              <option value="venta">Venta</option>
+              <option value="arriendo">Arriendo</option>
+            </select>
+          </div>
+        </div>
+    
+        <!-- Listado de propiedades -->
+        <div id="propiedades" class="row"></div>
+      </div>
+    
+      <script src="app.js"></script>
+    </body>
+    </html>  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Millenium LTDA</span>
+          </a>
+          <p>Soluciones Integrales en Gestión de Edificios, Combinando Experiencia, Tecnología y Transparencia</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Links útiles</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Beneficios</a></li>
+            <li><a href="#">Kastor</a></li>
+            <li><a href="#">Contacto</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Nuestros Services</h4>
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#">Gestión de mantenimiento y reparaciones</a></li>
+            <li><a href="#">Gestión Financiera</a></li>
+            <li><a href="#">Gestion de recursos humanos</a></li>
+            <li><a href="#">Cumplimiento normativo</a></li>
+            <li><a href="#">Implementación de tecnología para la gestión comunitaria</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contactanos</h4>
+          <p>Aurelio Manzano N°594</p>
+          <p>Concepción</p>
+          <p class="mt-4"><strong>Telefono:</strong> <span>+569 56287856</span></p>
+          <p><strong>Email:</strong> <span>info@millenium.cl</span></p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- WHATSAPP -->
+    <!-- WhatsApp fixed widget -->
+    <a class="whapp animated pulse" href="https://api.whatsapp.com/send/?phone=56956262949" target="_blank">
+      <div class="whapp-btn">
+        <img
+          src="https://uploads-ssl.webflow.com/62b5ca109278e030a060e942/62bf28776d90ec6fa2bec0f4_iconmonstr-whatsapp-1-240.png" />
+      </div>
+    </a>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+<script>
+    const regiones = {
+        "Región de Arica y Parinacota": ["Arica", "Camarones", "General Lagos", "Putre"],
+        "Región de Tarapacá": ["Alto Hospicio", "Camina", "Colchane", "Huara", "Iquique", "Pica", "Pozo Almonte"],
+        "Región de Antofagasta": ["Antofagasta", "Calama", "María Elena", "Mejillones", "Ollagüe", "San Pedro de Atacama", "Sierra Gorda", "Taltal", "Tocopilla"],
+        "Región de Atacama": ["Alto del Carmen", "Caldera", "Chañaral", "Copiapó", "Diego de Almagro", "Freirina", "Huasco", "Tierra Amarilla", "Vallenar"],
+        "Región de Coquimbo": ["Andacollo", "Canela", "Combarbalá", "Coquimbo", "Illapel", "La Higuera", "La Serena", "Los Vilos", "Monte Patria", "Ovalle", "Paihuano", "Punitaqui", "Río Hurtado", "Salamanca", "Vicuña"],
+        "Región de Valparaíso": ["Algarrobo", "Cabildo", "Calera", "Calle Larga", "Cartagena", "Casablanca", "Catemu", "Concón", "El Quisco", "El Tabo", "Hijuelas", "Isla de Pascua", "Juan Fernández", "La Cruz", "La Ligua", "Limache", "Llaillay", "Los Andes", "Nogales", "Olmué", "Panquehue", "Papudo", "Petorca", "Puchuncaví", "Putaendo", "Quillota", "Quilpué", "Quintero", "San Antonio", "San Esteban", "San Felipe", "Santa María", "Santo Domingo", "Valparaíso", "Villa Alemana", "Viña del Mar", "Zapallar"],
+        "Región Metropolitana de Santiago": ["Santiago", "Providencia", "Las Condes", "Maipú", "Puente Alto", "La Florida", "Vitacura"],
+        "Región del Biobío": ["Concepción", "Los Ángeles", "Chiguayante", "Coronel", "Talcahuano", "San Pedro de la Paz"],
+        "Región de La Araucanía": ["Temuco", "Villarrica", "Pucón"],
+        "Región de Los Ríos": ["Valdivia", "Río Bueno", "La Unión"],
+        "Región de Los Lagos": ["Puerto Montt", "Castro", "Osorno"],
+        "Región de Aysén": ["Coyhaique", "Aysén"],
+        "Región de Magallanes y la Antártica Chilena": ["Punta Arenas", "Puerto Natales"], 
+        "Región de Ñuble" :[ "Bulnes","Chillán", "Chillán Viejo",
+    "Cobquecura",
+    "Coelemu",
+    "Coihueco",
+    "El Carmen",
+    "Ninhue",
+    "Ñiquén",
+    "Pemuco",
+    "Pinto",
+    "Portezuelo",
+    "Quillón",
+    "Quirihue",
+    "Ránquil",
+    "San Carlos",
+    "San Fabián",
+    "San Ignacio",
+    "San Nicolás",
+    "Treguaco",
+    "Yungay"]
+    };
+
+    const regionSelect = document.getElementById("region");
+    const comunaSelect = document.getElementById("comuna");
+
+    // Llenar select de regiones
+    Object.keys(regiones).forEach(region => {
+        const option = document.createElement("option");
+        option.value = region;
+        option.textContent = region;
+        regionSelect.appendChild(option);
+    });
+
+    // Actualizar comunas al seleccionar región
+    regionSelect.addEventListener("change", function () {
+        const regionSeleccionada = this.value;
+        comunaSelect.innerHTML = '<option value="Todas">Todas las Comunas</option>'; // Resetear opciones
+
+        if (regionSeleccionada !== "Todas") {
+            regiones[regionSeleccionada].forEach(comuna => {
+                const option = document.createElement("option");
+                option.value = comuna;
+                option.textContent = comuna;
+                comunaSelect.appendChild(option);
+            });
+            comunaSelect.disabled = false;
+        } else {
+            comunaSelect.disabled = true;
+        }
+
+        mostrarPropiedades();
+    });
+
+    comunaSelect.addEventListener("change", mostrarPropiedades);
+    document.getElementById("filtro").addEventListener("change", mostrarPropiedades);
+
+    function generarPropiedadesAleatorias(cantidad) {
+        const nombres = ["Edificio Central", "Vista Mar", "Residencial Sur", "Torre Premium", "Condominio Verde"];
+        const tipos = ["Compra", "Arriendo"];
+        const regionesArray = Object.keys(regiones);
+        const propiedades = [];
+
+        for (let i = 0; i < cantidad; i++) {
+            const tipo = tipos[Math.floor(Math.random() * tipos.length)];
+            const nombre = nombres[Math.floor(Math.random() * nombres.length)];
+            const precio = tipo === "Compra"
+                ? `$${(Math.random() * 300 + 50).toFixed(3)}.000.000`
+                : `$${(Math.random() * 900 + 100).toFixed(0)}.000 / mes`;
+            const dormitorios = Math.floor(Math.random() * 4) + 1;
+            const banos = Math.floor(Math.random() * 3) + 1;
+            const metros = Math.floor(Math.random() * 150) + 50;
+            const imagen = `https://picsum.photos/300/200?random=${i}`;
+            const region = regionesArray[Math.floor(Math.random() * regionesArray.length)];
+            const comuna = regiones[region][Math.floor(Math.random() * regiones[region].length)];
+
+            propiedades.push({ id: i, tipo, nombre, imagen, precio, dormitorios, banos, metros, region, comuna });
+        }
+
+        return propiedades;
+    }
+
+    const propiedades = generarPropiedadesAleatorias(15);
+
+    function mostrarPropiedades() {
+        const contenedor = document.getElementById("propiedades");
+        contenedor.innerHTML = "";
+
+        const filtro = document.getElementById("filtro").value;
+        const regionSeleccionada = regionSelect.value;
+        const comunaSeleccionada = comunaSelect.value;
+
+        const filtradas = propiedades.filter(p => 
+            (filtro === "Todos" || p.tipo === filtro) &&
+            (regionSeleccionada === "Todas" || p.region === regionSeleccionada) &&
+            (comunaSeleccionada === "Todas" || p.comuna === comunaSeleccionada)
+        );
+
+        filtradas.forEach(propiedad => {
+            const card = `
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="${propiedad.imagen}" class="card-img-top" alt="${propiedad.nombre}">
+                        <div class="card-body">
+                            <h5 class="card-title">${propiedad.nombre}</h5>
+                            <p class="card-text">
+                                <strong>Precio:</strong> ${propiedad.precio}<br>
+                                <strong>Dormitorios:</strong> ${propiedad.dormitorios}<br>
+                                <strong>Baños:</strong> ${propiedad.banos}<br>
+                                <strong>Metros cuadrados:</strong> ${propiedad.metros} m²<br>
+                                <strong>Ubicación:</strong> ${propiedad.comuna}, ${propiedad.region}
+                            </p>
+                        </div>
+                    </div>
+                </div>`;
+            contenedor.innerHTML += card;
+        });
+    }
+
+    mostrarPropiedades();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>

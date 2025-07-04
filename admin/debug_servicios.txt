@@ -1,0 +1,6 @@
+TIMESTAMP: 2025-07-03 23:20:14
+POST agua: SI
+POST luz: NO
+POST gas: NO
+Valores finales: agua=1, luz=0, gas=0, alcantarillado=0
+-------------------

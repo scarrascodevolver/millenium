@@ -1,0 +1,66 @@
+=== EMAIL ENVIADO ===
+Fecha: 2025-07-04 05:04:55
+Para: eliascarrascoaguayo@gmail.com (Elias Carrasco)
+Asunto: Respuesta a tu consulta sobre: 2
+Contenido:
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+            .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+            .header { background-color: #574964; color: white; padding: 20px; text-align: center; }
+            .content { background-color: #f9f9f9; padding: 20px; }
+            .property-info { background-color: white; padding: 15px; margin: 10px 0; border-left: 4px solid #A5B68D; }
+            .response-info { background-color: white; padding: 15px; margin: 10px 0; border-left: 4px solid #DA8359; }
+            .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Respuesta a tu Consulta</h1>
+                <p>Millenium Administración de Edificios y Condominios</p>
+            </div>
+            <div class="content">
+                <p>Hola <strong>Elias Carrasco</strong>,</p>
+                
+                <p>Gracias por tu interés en nuestras propiedades. Hemos recibido tu consulta y queremos responderte:</p>
+                
+                <div class="property-info">
+                    <h3>Propiedad Consultada</h3>
+                    <p><strong>Título:</strong> 2</p>
+                    <p><strong>Ubicación:</strong> Pelluhue, Región del Maule (VII)</p>
+                    <p><strong>Precio:</strong> US$ 2</p>
+                </div>
+                
+                <div class="response-info">
+                    <h3>Nuestra Respuesta</h3>
+                    <p>faafs</p>
+                </div>
+                
+                <p>Si tienes más preguntas o deseas agendar una visita, no dudes en contactarnos:</p>
+                <ul>
+                    <li><strong>Email:</strong> info@millenium.cl</li>
+                    <li><strong>Teléfono:</strong> +41 2799626</li>
+                    <li><strong>WhatsApp:</strong> +569 32385980</li>
+                </ul>
+                
+                <p style="text-align: center; margin-top: 20px;">
+                    <a href="http://localhost/Millenium/detalle-propiedad.php?id=3" 
+                       style="background-color: #A5B68D; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; display: inline-block;">
+                        Ver Propiedad Completa
+                    </a>
+                </p>
+            </div>
+            <div class="footer">
+                <p>Gracias por elegir Millenium para tus necesidades inmobiliarias.</p>
+                <p>Dirección: Aurelio Manzano N°594, Concepción</p>
+            </div>
+        </div>
+    </body>
+    </html>
+=====================
+
